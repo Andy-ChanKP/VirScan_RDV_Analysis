@@ -4,5 +4,5 @@ This repository contains all the codes, datasets and graphs for the publication:
 Codes and graphs can be accessed here: 
 https://andy-chankp.github.io/VirScan_RDV_Analysis/VirScan_analysis_RDV_Githib_ready.html
 
-Datasets can be accessed here: 
+Datasets can be accessed in the directory "Datasets_in_RDS" 
 
