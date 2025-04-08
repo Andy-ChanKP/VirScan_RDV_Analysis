@@ -1,1 +1,11 @@
-Four datasets 
+Description for the datasets:
+
+- VARscore_1: VAR score is an overall score in antibody reactivity to each viral species in a serum sample 
+
+- Merged_hfc_all: Total number of antibody hits to each viral peptide tile in a serum sample for all longitudinal timepoints. 
+
+- Total_peptide_hits_all: Total number of peptide tile hits that have a HFC of over 1 in each viral species for all longitudinal timepoints
+
+- Percentage_peptide_hits_all: TPH per number of viral peptide tiles of each viral species. Only viral species with Number_of_Peptide_Tiles >50 were included for subsequent analysis
+
+Of note, Merged_hfc_all_1_44_selected_viral_species.RDS and Merged_hfc_all_2_44_selected_viral_species.RDS are subsets of the entire dataset. Please use rbind to combine the two files to get the hit fold change data for 44 selected viral species (all RM viruses, human viruses with VARscore>2 and PPH>10). This should be adequate in producing the graphs in the html file. If you want to probe further into the dataset with other viral species, please email me at kchan47@jh.edu for access. Thank you. 
